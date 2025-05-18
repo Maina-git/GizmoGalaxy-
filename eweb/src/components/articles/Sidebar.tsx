@@ -15,13 +15,13 @@ const Sidebar: React.FC<SidebarProps> = ({ setCategory }) => {
   ];
 
   return (
-    <div className="h-screen w-48 bg-blue-500 p-4 shadow-md">
+    <div className="w-full h-auto  md:h-screen md:w-48 bg-blue-500 p-4 shadow-md">
       <h2 className="text-lg font-bold mb-4 text-white">Categories</h2>
-      <ul className="space-y-3"> 
+      <ul className="flex-col md:pace-y-3"> 
         {categories.map((category, index) => (
           <li
             key={index}
-            className="flex items-center gap-2 text-white p-2 hover:bg-gray-500 rounded cursor-pointer"
+            className="flex items-center gap-2 text-white p-2 hover:bg-blue-300 rounded cursor-pointer"
             onClick={() => setCategory(category.name)}>
             {category.icon}
             <span className="text-sm font-medium">{category.name}</span>

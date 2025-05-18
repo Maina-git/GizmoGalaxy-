@@ -6,7 +6,7 @@ const CategoriesPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState("Laptops");
 
   return (
-    <div className="flex">
+    <div className="flex flex-col md:flex-row">
       <Sidebar setCategory={setSelectedCategory} />
       <Gadgets category={selectedCategory} />
     </div>
