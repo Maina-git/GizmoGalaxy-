@@ -79,7 +79,7 @@ const navItems2:Links2[]=[
 ]
 
   return (
-    <nav className="bg-slate-800 text-slate-300  shadow-md py-4 text-slate-300 ">
+    <nav className="bg-slate-801 text-slate-300  shadow-md py-4 text-slate-300 ">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex items-center text-xl font-bold text-blue-500">
           <FaShoppingCart className="mr-2" />
