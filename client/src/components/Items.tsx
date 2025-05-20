@@ -29,6 +29,7 @@ const items = [
     description: "Ergonomic gaming controllers for console and PC gaming.",
     image: "/images/home/dfdd9b40fc2f9fa4440d16571484516c.3c70.webp",
   },
+  
 ];
 
 const Items: React.FC = () => {
