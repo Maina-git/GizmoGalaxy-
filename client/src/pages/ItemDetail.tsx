@@ -21,17 +21,17 @@ const items = [
   {
     id: 3,
     name: "Accessories",
-    price: "$49.00",
     description:
       "High-quality accessories including chargers, earphones, and cases.",
     image: "/images/home/4hU7T5fQYWbnU5vxHZnAZE-1200-80.jpg",
+    price: "$49.00",
   },
   {
     id: 4,
     name: "Gaming Pads",
-    price: "$89.00",
     description: "Ergonomic gaming controllers for console and PC gaming.",
     image: "/images/home/dfdd9b40fc2f9fa4440d16571484516c.3c70.webp",
+    price: "$89.00",
   },
 ];
 const ItemDetail: React.FC = () => {
