@@ -33,32 +33,32 @@ const NavItmes: Links[] = [
   {
     id: 1,
     name: "Home",
-    path: "/",
+    path: "/dashboard/h",
   },
   {
     id: 2,
     name: "Categories",
-    path: "/c",
+    path: "/dashboard/c",
   },
   {
     id: 3,
     name: "Deal`s",
-    path: "/d",
+    path: "/dashboard/d",
   },
   {
     id: 4,
     name: "What`s New",
-    path: "/w",
+    path: "/dashboard/w",
   },
   {
     id: 5,
     name: "Delivery",
-    path: "/dl",
+    path: "/dashboard/dl",
   },
   {
     id: 6,
     name: "Sample Page",
-    path: "/sp",
+    path: "/dashboard/sp",
   },
 ];
 
