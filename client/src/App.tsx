@@ -8,6 +8,8 @@ import Deals from "./pages/Deals";
 import SignUp from "./pages/authPages/SignUp";
 import Login from "./pages/authPages/Login";
 import Footer from "./components/Footer";
+import Items from "./components/Items";
+import ItemDetail from "./pages/ItemDetail"
 
 const App: React.FC = () => {
   return (
@@ -21,6 +23,8 @@ const App: React.FC = () => {
           <Route path="/d" element={<Deals/>}/>
           <Route path="/sgn" element={<SignUp/>}/>
           <Route path="/lg" element={<Login/>}/>
+          <Route path="/it" element={<Items/>}/>
+          <Route path="/item/:id" element = {<ItemDetail/>}/>
         </Routes>
         <Footer/>
       </Router>
