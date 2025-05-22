@@ -1,19 +1,21 @@
+// src/layouts/DashboardLayout.tsx
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-
-const DashboardLayout = () => {
+const DashboardLayout: React.FC = () => {
   return (
-  <>
-    <Navbar/>
-    <div>
-      <Outlet/>
+    <div className="flex flex-col  h-auto">
+      {/* Sidebar */}
+      <Navbar/>
+      {/* Main Content */}
+      <main className="flex-1 p-6 overflow-y-auto">
+        <Outlet />
+      </main>
+      <Footer/>
     </div>
-  <Footer/>
-  </>
-  )
-}
+  );
+};
 
 export default DashboardLayout;

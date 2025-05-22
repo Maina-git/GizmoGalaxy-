@@ -66,20 +66,20 @@ const NavItmes: Links[] = [
 const navItems2:Links2[]=[
   {
     id:1,
-    name:"Account",
+    name:"Sign Out",
     icon:<MdAccountCircle className="mr-1 text-xl"/>,
-    path:"/lg"
+    path:""
   },
   {
     id:2,
     name:"Cart",
     icon:<FaCartPlus   className="mr-1 text-xl"/>,
-    path:"/crt"
+    path:" "
   }
 ]
 
   return (
-    <nav className="bg-slate-800 text-slate-300  shadow-md py-4 text-slate-300 ">
+    <nav className="bg-slate-800 text-slate-300  shadow-md py-">
      
       <div className="container mx-auto flex justify-between items-center px-4">
       <Link to ={"/"}>
