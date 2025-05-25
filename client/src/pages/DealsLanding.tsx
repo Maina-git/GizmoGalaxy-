@@ -25,7 +25,7 @@ const DealsLanding: React.FC<Props> = ({ redirect }) => {
       {/* Right Section */}
       <div className="md:w-1/2 w-full bg-white flex items-center justify-center relative p-6">
         <img
-          src="/images/gamepad-6392045_1280.jpg"
+          src="/images/special-offer-sale-vector-banner-design-sale-50-off-discount-limited-time-offer-text-in-promo-abstract-label-for-business-marketing-online-promotion-2D7GB99.jpg"
           alt="Deals"
           className="rounded-full object-cover w-72 h-72 md:w-96 md:h-96 shadow-xl transition-transform duration-300 hover:scale-105"
         />
