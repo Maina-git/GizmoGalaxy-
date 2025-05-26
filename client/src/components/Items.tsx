@@ -296,33 +296,7 @@ const Items: React.FC = () => {
         </svg>
       </div>
 
-      {/* Custom CSS for additional animations */}
-      <style jsx>{`
-        @keyframes float {
-          0%,
-          100% {
-            transform: translateY(0px) rotate(0deg);
-          }
-          25% {
-            transform: translateY(-15px) rotate(2deg);
-          }
-          50% {
-            transform: translateY(-5px) rotate(-1deg);
-          }
-          75% {
-            transform: translateY(-10px) rotate(1deg);
-          }
-        }
-
-        .animate-float {
-          animation: float ease-in-out infinite;
-        }
-
-        /* Enhanced hover effects */
-        .group:hover {
-          transform: translateY(-8px) scale(1.02);
-        }
-      `}</style>
+      
     </div>
   );
 };
