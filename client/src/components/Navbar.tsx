@@ -84,22 +84,24 @@ const navItems2:Links2[]=[
 ]
 
   return (
-    <nav className="bg-slate-800 text-slate-300  shadow-md py-">
+    <nav className="bg-slate-800 text-slate-300 p-4  shadow-md py-">
      
       <div className="container mx-auto flex justify-between items-center px-4">
+<<<<<<< HEAD
       <Link to ={"h"}>
+=======
+      
+>>>>>>> b8f90ff07b3faead301e504dce253ca3a27ee4e5
         <div className="flex items-center text-xl font-bold text-blue-500">
           <FaShoppingCart className="mr-2" />
           <span>Gizmo Galaxy</span>
         </div>
-        </Link>
         {NavItmes.map((item) => (
           <div className="hidden md:flex gap-2 text-slate-300   font-medium">
             <Link
               className="hover:text-blue-500 cursor-pointer text-xs blue-500"
               to={item.path}
-              key={item.id}
-            >
+              key={item.id}>
               {item.name}
             </Link>
           </div>
@@ -109,14 +111,12 @@ const navItems2:Links2[]=[
             <input
               type="text"
               placeholder="Search Product"
-              className="bg-transparent outline-none text-sm text-slate-500  w-full"
-            />
+              className="bg-transparent outline-none text-sm text-slate-500  w-full"/>
             <FaSearch className="text-gray-500 ml-2" />
           </div>
           <button
             onClick={openNav}
-            className="md:hidden  w-10 h-10 text-slate-300  rounded-full text-3xl"
-          >
+            className="md:hidden  w-10 h-10 text-slate-300  rounded-full text-3xl">
             {showNav ? <MdClose /> : <MdMenu />}
           </button>
 
@@ -140,8 +140,7 @@ const navItems2:Links2[]=[
               <Link
                 className="text-slate-300  cursor-pointer text-xs"
                 to={item.path}
-                key={item.id}
-              >
+                key={item.id}>
                 {item.name}
               </Link>
             ))}
