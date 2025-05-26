@@ -1,9 +1,7 @@
 import React from 'react'
 
 const BeautyAndSkinCare: React.FC = () => {
-  return (
-    <div>BeautyAndSkinCare</div>
-  )
-}
+  return <div>Skin care produtcs</div>;
+};
 
 export default BeautyAndSkinCare

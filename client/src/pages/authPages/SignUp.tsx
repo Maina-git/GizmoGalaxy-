@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
+
 
 const SignUp: React.FC = () => {
   const navigate = useNavigate();
@@ -78,6 +79,7 @@ const SignUp: React.FC = () => {
           className="bg-blue-500 text-white w-full py-3 cursor-pointer hover:bg-blue-300 rounded-full">
           Sign Up
         </button>
+        <Link to ={'h'}><p>go home</p></Link>
       </form>
     </div>
   );

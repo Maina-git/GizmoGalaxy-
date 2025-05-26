@@ -1,3 +1,8 @@
+{/*Don't change the routing */}
+{
+  /* h = home c=categories d=deals*/
+}
+
 import React from "react";
 import { FaShoppingCart, FaSearch, FaCartPlus } from "react-icons/fa";
 import { MdAccountCircle } from "react-icons/md";
@@ -33,22 +38,22 @@ const NavItmes: Links[] = [
   {
     id: 1,
     name: "Home",
-    path: "/dashboard/h",
+    path: "h",
   },
   {
     id: 2,
     name: "Categories",
-    path: "/dashboard/c",
+    path: "c",
   },
   {
     id: 3,
     name: "Deal`s",
-    path: "/dashboard/d",
+    path: "d",
   },
   {
     id: 4,
     name: "What`s New",
-    path: "/dashboard/w",
+    path: "w",
   },
   {
     id: 5,
@@ -82,7 +87,7 @@ const navItems2:Links2[]=[
     <nav className="bg-slate-800 text-slate-300  shadow-md py-">
      
       <div className="container mx-auto flex justify-between items-center px-4">
-      <Link to ={"/"}>
+      <Link to ={"h"}>
         <div className="flex items-center text-xl font-bold text-blue-500">
           <FaShoppingCart className="mr-2" />
           <span>Gizmo Galaxy</span>
