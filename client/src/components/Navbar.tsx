@@ -87,11 +87,7 @@ const navItems2:Links2[]=[
     <nav className="bg-slate-800 text-slate-300 p-4  shadow-md py-">
      
       <div className="container mx-auto flex justify-between items-center px-4">
-<<<<<<< HEAD
-      <Link to ={"h"}>
-=======
       
->>>>>>> b8f90ff07b3faead301e504dce253ca3a27ee4e5
         <div className="flex items-center text-xl font-bold text-blue-500">
           <FaShoppingCart className="mr-2" />
           <span>Gizmo Galaxy</span>
