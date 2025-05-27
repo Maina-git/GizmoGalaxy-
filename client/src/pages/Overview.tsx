@@ -7,8 +7,7 @@ const Overview: React.FC = () => {
       <img
         src="/images/adult-3086302_1280.jpg"
         alt="Hero"
-        className="absolute inset-0 w-full h-full object-cover brightness-75"
-      />
+        className="absolute inset-0 w-full h-full object-cover brightness-75"/>
 
       {/* Overlay content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
@@ -24,7 +23,6 @@ const Overview: React.FC = () => {
           assumenda ad aliquam ab? Cumque odit commodi quasi soluta laudantium
           nemo corrupti.
         </p>
-
         <Link to="/dashboard/h">
           <button className="bg-blue-600 hover:bg-blue-700 transition duration-300 ease-in-out text-white rounded-full px-8 py-4 text-xl shadow-lg hover:shadow-xl">
             Visit Our Store

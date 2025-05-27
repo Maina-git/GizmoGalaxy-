@@ -22,7 +22,7 @@ const DealsLanding: React.FC<Props> = ({ redirect }) => {
         </div>
       </div>
 
-      {/* Right Section */}
+
       <div className="md:w-1/2 w-full bg-white flex items-center justify-center relative p-6">
         <img
           src="/images/special-offer-sale-vector-banner-design-sale-50-off-discount-limited-time-offer-text-in-promo-abstract-label-for-business-marketing-online-promotion-2D7GB99.jpg"

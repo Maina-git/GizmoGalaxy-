@@ -21,8 +21,7 @@ const items = [
   {
     id: 3,
     name: "Accessories",
-    description:
-      "High-quality accessories including chargers, earphones, and cases.",
+    description:"High-quality accessories including chargers, earphones, and cases.",
     image: "/images/home/4hU7T5fQYWbnU5vxHZnAZE-1200-80.jpg",
     price: "$49.00",
   },
