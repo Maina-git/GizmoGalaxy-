@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Categories from "./pages/Categories";
+//import Categories from "./pages/Categories";
 import CartPage from "./pages/CartPage";
 import Deals from "./pages/Deals";
 import SignUp from "./pages/authPages/SignUp";
@@ -15,6 +15,7 @@ import HomeAndWellness from "./components/itemssold/HomeAndWellness";
 import BeautyAndSkinCare from "./components/itemssold/BeautyAndSkinCare";
 import DashboardLayout from "./layouts/DashboardLayout";
 import Overview from "./pages/Overview";
+import ItemsLayout from "./layouts/ItemsLayout";
 
 const App: React.FC = () => {
   return (
@@ -25,20 +26,25 @@ const App: React.FC = () => {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/" element={<DashboardLayout />}>
             <Route index element={<Overview />} />
-            <Route path="h" element={<Home />} />
-            <Route path="c" element={<Categories />} />
+            <Route path="home" element={<Home />} />
             <Route path="crt" element={<CartPage />} />
-            <Route path="d" element={<Deals />} />
-            <Route path="it" element={<Items />} />
+            <Route path="deals" element={<Deals />} />
+            <Route path="items" element={<Items />} />
             <Route path="item/:id" element={<ItemDetail />} />
+
+
+            <Route path="/itemslayout" element={<ItemsLayout/>}>
             <Route path="electronics" element={<Electronics />} />
             <Route path="clothes" element={<Clothes />} />
             <Route path="accessories" element={<Accessories />} />
             <Route path="home-and-wellness" element={<HomeAndWellness />} />
-            <Route
-              path="beauty-and-skin-care"
-              element={<BeautyAndSkinCare />}
-            />
+            <Route path="beauty-and-skin-care"
+              element={<BeautyAndSkinCare />}/>
+            </Route>
+
+
+
+
           </Route>
         </Routes>
       </Router>

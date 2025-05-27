@@ -82,7 +82,7 @@ const Clothes: React.FC = () => {
     {
       id: 1,
       name: "Premium Cotton T-Shirt",
-      image: "/api/placeholder/250/250",
+      image: "/images/home/cottonT-shirt.jpg",
       price: "$24",
       originalPrice: "$39",
       discount: "38% OFF",
@@ -90,7 +90,7 @@ const Clothes: React.FC = () => {
     {
       id: 2,
       name: "Designer Jeans",
-      image: "/api/placeholder/250/250",
+      image: "/images/home/jeans.webp",
       price: "$69",
       originalPrice: "$99",
       discount: "30% OFF",
@@ -98,7 +98,7 @@ const Clothes: React.FC = () => {
     {
       id: 3,
       name: "Summer Dress",
-      image: "/api/placeholder/250/250",
+      image: "/images/home/summerdress.avif",
       price: "$49",
       originalPrice: "$79",
       discount: "38% OFF",
@@ -137,8 +137,7 @@ const Clothes: React.FC = () => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-48 object-cover"
-                  />
+                    className="w-full h-48 object-cover"/>
                   <div className="absolute top-2 right-2 bg-pink-500 text-white px-2 py-1 rounded-md text-sm font-semibold">
                     {product.discount}
                   </div>

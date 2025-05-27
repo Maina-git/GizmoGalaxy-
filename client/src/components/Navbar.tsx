@@ -38,22 +38,22 @@ const NavItmes: Links[] = [
   {
     id: 1,
     name: "Home",
-    path: "h",
+    path: "home",
   },
   {
     id: 2,
     name: "Categories",
-    path: "c",
+    path: "itemslayout/electronics",
   },
   {
     id: 3,
     name: "Deal`s",
-    path: "d",
+    path: "deals",
   },
   {
     id: 4,
     name: "What`s New",
-    path: "w",
+    path: "whatsnew",
   },
   {
     id: 5,

@@ -16,7 +16,7 @@ const Electronics: React.FC = () => {
       id: 1,
       name: "Smartphones",
       icon: Smartphone,
-      image: "/api/placeholder/300/200",
+      image:"/images/smartphone-5714763_1280.jpg",
       description: "Latest smartphones with cutting-edge technology",
       price: "From $299",
     },
@@ -82,7 +82,7 @@ const Electronics: React.FC = () => {
     {
       id: 1,
       name: "iPhone 15 Pro",
-      image: "/api/placeholder/250/250",
+      image: "/images/home/iphonePro.jpg",
       price: "$999",
       originalPrice: "$1,199",
       discount: "17% OFF",
@@ -90,7 +90,7 @@ const Electronics: React.FC = () => {
     {
       id: 2,
       name: "MacBook Air M2",
-      image: "/api/placeholder/250/250",
+      image: "/images/home/macbookairm2starlight0001.jpg",
       price: "$1,099",
       originalPrice: "$1,299",
       discount: "15% OFF",
@@ -98,7 +98,7 @@ const Electronics: React.FC = () => {
     {
       id: 3,
       name: "AirPods Pro",
-      image: "/api/placeholder/250/250",
+      image: "/images/home/960x0.jpg",
       price: "$199",
       originalPrice: "$249",
       discount: "20% OFF",
@@ -108,7 +108,7 @@ const Electronics: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
+      <div className="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Electronics</h1>
@@ -118,8 +118,6 @@ const Electronics: React.FC = () => {
           </div>
         </div>
       </div>
-
-      {/* Featured Products Banner */}
       <div className="bg-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
@@ -129,8 +127,7 @@ const Electronics: React.FC = () => {
             {featuredProducts.map((product) => (
               <div
                 key={product.id}
-                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
-              >
+                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <div className="relative">
                   <img
                     src={product.image}
@@ -160,8 +157,6 @@ const Electronics: React.FC = () => {
           </div>
         </div>
       </div>
-
-      {/* Categories Grid */}
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
